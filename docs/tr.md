@@ -19,7 +19,7 @@ Klasör Yapısı Detayları
 
 >Projenizin yapısına göre bu klasörlere aşağıdaki açıklamaları dikkate alarak yeni `.scss` dosyaları ekleyebilirsiniz.
 
-## Helpers Klasörü
+## Helpers
 Değişkenler, mixinler, fonksiyonlar vb. özelliklerin bulunduğu klasördür. Projenizde kullanabileceğiniz mixin, fonksiyon ve değişkenler için örnek kodlar mevcuttur.
 
 #### Dosya Listesi
@@ -28,7 +28,7 @@ Değişkenler, mixinler, fonksiyonlar vb. özelliklerin bulunduğu klasördür. 
 * _mixin.scss (Sass Mixins)
 
 
-## Base Klasörü
+## Base
 Siteye ait ana kodların bulunduğu klasördür. Başlangıçta standart olarak belirlenen kodlar burada bulunur(normalize,typography vs.)
 
 #### Dosya Listesi
@@ -38,7 +38,7 @@ Siteye ait ana kodların bulunduğu klasördür. Başlangıçta standart olarak 
 * _base.scss
 
 
-## Layout Klasörü
+## Layout
 Siteye ait ana parçaların stil dosyaları bu klasörde bulunur.
 
 #### Dosya Listesi
@@ -51,7 +51,7 @@ Siteye ait ana parçaların stil dosyaları bu klasörde bulunur.
 
 
 
-## Components Klasörü
+## Components
 Küçük tamamlayıcılara ait stil dosyaları bu klasörde bulunur.
 
 #### Dosya Listesi
@@ -68,7 +68,7 @@ Küçük tamamlayıcılara ait stil dosyaları bu klasörde bulunur.
 
 
 
-## Pages Klasörü
+## Pages
 Sayfalara özel stil dosyaları bu klasörde bulunur. Eğer bir sayfa için birde fazla sass dosyası oluşturmak istenirse klasör yapısı oluşturulabilir.
 
 #### Dosya Listesi
@@ -77,7 +77,7 @@ Sayfalara özel stil dosyaları bu klasörde bulunur. Eğer bir sayfa için bird
 * folder/_all -> Örnek klasör yapısı
 
 
-## Vendors Klasörü
+## Vendors
 Framework ve dışarıdan eklenen kütüphanelere ait stil dosyaları burada bulunur.
 
 #### Dosya Listesi
