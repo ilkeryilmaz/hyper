@@ -1,0 +1,154 @@
+/// clear inner floats
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+
+/// Font Face
+/// @param {String} $family
+/// @param {Path} $src
+/// @param {String} $weight
+/// @param {String} $style
+@mixin fontFace($family,$src,$weight: normal,$style: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('../#{$src}.eot?v=2'); // IE9 compat
+    src: url('../#{$src}.eot?#iefix2') format('embedded-opentype'), // IE8 and below
+      url('../#{$src}.woff?v=2') format('woff'), // standards
+      url('../#{$src}.ttf?v=2') format('truetype'), // Safari, Android, iOS
+      url('../#{$src}.svg##{$family}?v=2') format('svg'); // legacy iOS
+
+    font-style: $style;
+    font-weight: $weight;
+  }
+}
+
+
+/// Media Code
+/// @param {String} $media
+@mixin respond-to($media) {
+  @if $media == laptop-l {
+    @media only screen and (min-width: 1440px){
+      @content;
+    }
+  }@else if $media == laptop {
+    @media only screen and (min-width: 1100px){
+      @content;
+    }
+  }@else if $media == tablet-l {
+    @media only screen and (min-width: 1020px){
+      @content;
+    }
+  }@else if $media == tablet {
+    @media only screen and (min-width: 768px){
+      @content;
+    }
+  }@else if $media == landscape {
+    @media only screen and (min-width: 650px){
+      @content;
+    }
+  }@else if $media == mobile-l {
+    @media only screen and (min-width: 425px){
+      @content;
+    }
+  }@else if $media == mobile-m {
+    @media only screen and (min-width: 375px){
+      @content;
+    }
+  }@else if $media == mobile-s {
+    @media only screen and (min-width: 320px){
+      @content;
+    }
+  }
+}
+
+
+/// Box Shadow
+/// @param {String} $option
+@mixin box-shadow($option...) {
+  -moz-box-shadow: $option;
+    -webkit-box-shadow: $option;
+      box-shadow: $option;
+}
+
+
+/// Transition
+/// @param {String} $option
+@mixin transition($option...) {
+  -webkit-transition: $option;
+     -moz-transition: $option;
+      -ms-transition: $option;
+       -o-transition: $option;
+          transition: $option;
+}
+
+
+/// Transform
+/// @param {String} $transforms
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+     -moz-transform: $transforms;
+      -ms-transform: $transforms;
+       -o-transform: $transforms;
+          transform: $transforms;
+}
+
+
+/// Background Size
+/// @param {String} $type
+@mixin background-size($type){
+  -webkit-background-size: $type;
+       -o-background-size: $type;
+          background-size: $type;
+}
+
+
+/// Background Position
+/// @param {String} $position
+@mixin background-position($position){
+  background-position: $position;
+}
+
+
+/// Background Repeat
+/// @param {String} $option
+@mixin background-repeat($option){
+  background-repeat: $option;
+}
+
+
+/// Cross Browser Opacity
+/// @param {Number} $opacity
+@mixin opacity($opacity) {
+  $opacity-ie: $opacity * 100;
+  opacity: $opacity;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+/// User Select
+/// @param {String} $type
+@mixin user-select($type){
+  -webkit-user-select: $type;
+  -moz-user-select: $type;
+  -ms-user-select: $type;
+  user-select: $type;
+}
+
+
+/// Hide Element
+@mixin hide-element(){
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+/// Show Element
+@mixin show-element(){
+  visibility: visible;
+  opacity: 1;
+}

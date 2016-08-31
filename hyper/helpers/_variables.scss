@@ -1,2 +1,47 @@
-$main-font-size : 14px;
-$base-font      : 'Arial';
+/// Width
+$container:   1148px;
+
+
+/// Default Settings
+$darken-opacity:     10%;
+$default-alpha:      0.9;
+$default-transition: 0.5s;
+$default-transition-type: ease-in-out;
+
+
+/// Font
+$base-font: ('Helvetica', 'Arial', sans-serif);
+$main-font-size: 16px;
+$mobile-font-size: 14px;
+
+
+/// Typography
+$base-color                 : #4c4c4c;
+$base-gray                  : #636363;
+
+/// Theme Colors
+$brand-primary-color        : #e64147;
+$brand-second-color         : #1c95ac;
+$menu-bg-color              : #f1f1f3;
+$menu-bg-active-color       : #262832;
+$menu-item-color            : #48484a;
+
+
+/// Font Weight
+$light: 300;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+
+/// All z-index value
+$menu-zindex          : 3;
+$menu-fixed-zindex    : 4;
+
+
+/// Font-awesome Icons
+$icons: (
+  more : "\f0da",
+  chevron-right: "\f054",
+  chevron-down: "\f078",
+);

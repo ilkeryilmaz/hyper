@@ -12,6 +12,7 @@ hyper/
 |   |– _variables.scss   
 |   |– _functions.scss
 |   |– _mixins.scss
+|   …
 |
 |– base/
 |   |– _all.scss
