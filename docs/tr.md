@@ -5,7 +5,7 @@ Hyper sass alt yapısını kullanan bir css frameworktür. Takım çalışmalar�
 Nasıl Kullanılır?
 ---
 1. Clone/Download yaparak dosyaları bilgisayarınıza indirin.
-2. hyper klasörünü projenize taşıyarak `hyper.scss` dosyasını uygulamanız içerisindeki ana `.scss` dosyasına @import ediniz.
+2. hyper klasörünü projenize taşıyarak `hyper.scss` dosyasını uygulamanız içerisindeki ana `.scss` dosyasına `@import` ediniz.
 3. Derleyicinizi çalıştırarak çalışmaya başlayabilirsiniz. Mutlu kodlamalar. :sunglasses:
 
 Klasör Yapısı Detayları
@@ -86,4 +86,4 @@ Framework ve dışarıdan eklenen kütüphanelere ait stil dosyaları burada bul
 
 
 ## hyper.scss
-Ana sass dosyasıdır. Projenize gerekli yolları yazarak @import edebilirsiniz.
+Ana sass dosyasıdır. Projenize gerekli yolları yazarak `@import` edebilirsiniz. Örnek kullanımı `tests` klasöründen inceleyebilirsiniz.
