@@ -5,24 +5,24 @@ Hyper sass to use a CSS framework in frastructure . Its created to new style  mo
 
 How to use?
 ---
-1. Do Clone / Download then Download files by your computer.
-2. Carrying the hyper folder to your project , please `@import main` `.scss` the `hyper.scss` file in your application file.
+1. Do Clone / Download then download files by your computer.
+2. Carrying the hyper folder to your project , please `@import` main .scss the `hyper.scss` file in your application file.
 3. You can start by running your compiler. Happy coding. :sunglasses:
 
 Folder Structure Details
 ---
-helpers
-Base
-Layout
-Components
-Pages
-vendors
+1. [Helpers](#helpers)
+2. [Base](#base)
+3. [Layout](#layout)
+4. [Components](#components)
+5. [Pages](#pages)
+6. [Vendors](#vendors)
 
 > Can add new files (.scss) to this folders by considering the following description of the structure of your project.
 
 
 ## Helpers
-Variables , mix include, functions etc . It is the folder where the properties. The mix that you can use in your project , sample code for functions and variables are available.
+Variables , mixins include, functions etc . It is the folder where the properties. The mixins that you can use in your project , sample code for functions and variables are available.
 
 ### File List
 * _variables.scss (Sass Variables)
