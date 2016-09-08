@@ -1,53 +1,37 @@
 /* Hyper v1.1 | MIT License | github.com/ilkeryilmaz/Hyper */
 
-/*
- * Helpers
- *
- * For all Sass tools (variables, mixins, functions etc.)
- */
+
+
+// 1. Helpers
+// For all Sass tools (variables, mixins, functions etc.)
 @import "helpers/all";
 
 
 
-/*
- * Base
- *
- * Theme settings, variables, mixins, functions etc.
- */
+ // 2. Base
+ // Theme settings, variables, mixins, functions etc.
 @import "base/all";
 
 
 
-/*
- * Layout
- *
- * For main parts (header,footer, sidebar, nav, breadcrumbs etc.).
- */
+ // 3. Layout
+ // For main parts (header,footer, sidebar, nav, breadcrumbs etc.).
 @import "layout/all";
 
 
 
-/*
- * Components
- *
- * For small components
- */
+ // 4. Layout
+ // For small components
 @import "components/all";
 
 
 
-/*
- * Pages
- *
- * For all pages
- */
+ // 4. Pages
+ // For all pages
 @import "pages/all";
 
 
 
-/*
- * Vendors
- *
- * For all framework and external libraries
- */
+ // 4. Vendors
+ // For all framework and external libraries
 @import "vendors/all";

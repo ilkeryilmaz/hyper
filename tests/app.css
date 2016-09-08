@@ -1,17 +1,7 @@
 /* Hyper v1.1 | MIT License | github.com/ilkeryilmaz/Hyper */
-/*
- * Helpers
- *
- * For all Sass tools (variables, mixins, functions etc.)
- */
 /** -------------------------------------------
     Option
     ------------------------------------------- **/
-/*
- * Base
- *
- * Theme settings, variables, mixins, functions etc.
- */
 /** -------------------------------------------
     Base
     ------------------------------------------- **/
@@ -391,35 +381,15 @@ body {
   color: #4c4c4c;
   line-height: 1.5; }
 
-/*
- * Layout
- *
- * For main parts (header,footer, sidebar, nav, breadcrumbs etc.).
- */
 /** -------------------------------------------
     Layout
     ------------------------------------------- **/
-/*
- * Components
- *
- * For small components
- */
 /** -------------------------------------------
     Components
     ------------------------------------------- **/
-/*
- * Pages
- *
- * For all pages
- */
 /** -------------------------------------------
     Pages
     ------------------------------------------- **/
-/*
- * Vendors
- *
- * For all framework and external libraries
- */
 /** -------------------------------------------
     Vendors
     ------------------------------------------- **/
