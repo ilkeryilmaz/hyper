@@ -36,6 +36,7 @@ Is the folder where the main code of the site. Initially set as the default enco
 * _normalize.scss
 * _animations.scss
 * _typography.scss
+* _print.scss
 * _base.scss
 
 ## Layout

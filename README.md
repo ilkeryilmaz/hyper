@@ -18,6 +18,7 @@ hyper/
 |   |– _all.scss
 |   |– _normalize.scss       
 |   |– _typography.scss
+|   |– _print.scss
 |   |– _animations.scss
 |   |– _base.scss
 |   …                     
