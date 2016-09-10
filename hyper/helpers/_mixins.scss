@@ -2,7 +2,25 @@
 // All Mixin
 // -----------------------------------------------------------------------------
 
-/// clear inner floats
+// Table of Contents
+//
+// Clearfix
+// Hover
+// Font Face
+// Media Code
+// Box Shadow
+// Transition
+// Transform
+// Background Size
+// Background Position
+// Background Repeat
+// Opacity
+// User Select
+// Hide Element
+// Show Element
+
+
+// clear inner floats
 @mixin clearfix {
   &::after {
     content: '';
@@ -11,12 +29,19 @@
   }
 }
 
+// Hover
+@mixin hover {
+  &:hover {
+    @content;
+  }
+}
 
-/// Font Face
-/// @param {String} $family
-/// @param {Path} $src
-/// @param {String} $weight
-/// @param {String} $style
+
+// Font Face
+// @param {String} $family
+// @param {Path} $src
+// @param {String} $weight
+// @param {String} $style
 @mixin fontFace($family,$src,$weight: normal,$style: normal) {
   @font-face {
     font-family: $family;
@@ -32,8 +57,8 @@
 }
 
 
-/// Media Code
-/// @param {String} $media
+// Media Code
+// @param {String} $media
 @mixin respond-to($breakpoint) {
   @if map-has-key($breakpoints, $breakpoint) {
     @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
@@ -48,8 +73,8 @@
 }
 
 
-/// Box Shadow
-/// @param {String} $option
+// Box Shadow
+// @param {String} $option
 @mixin box-shadow($option...) {
   -moz-box-shadow: $option;
     -webkit-box-shadow: $option;
@@ -57,8 +82,8 @@
 }
 
 
-/// Transition
-/// @param {String} $option
+// Transition
+// @param {String} $option
 @mixin transition($option...) {
   -webkit-transition: $option;
      -moz-transition: $option;
@@ -68,8 +93,8 @@
 }
 
 
-/// Transform
-/// @param {String} $transforms
+// Transform
+// @param {String} $transforms
 @mixin transform($transforms) {
   -webkit-transform: $transforms;
      -moz-transform: $transforms;
@@ -79,8 +104,8 @@
 }
 
 
-/// Background Size
-/// @param {String} $type
+// Background Size
+// @param {String} $type
 @mixin background-size($type){
   -webkit-background-size: $type;
        -o-background-size: $type;
@@ -88,22 +113,22 @@
 }
 
 
-/// Background Position
-/// @param {String} $position
+// Background Position
+// @param {String} $position
 @mixin background-position($position){
   background-position: $position;
 }
 
 
-/// Background Repeat
-/// @param {String} $option
+// Background Repeat
+// @param {String} $option
 @mixin background-repeat($option){
   background-repeat: $option;
 }
 
 
-/// Cross Browser Opacity
-/// @param {Number} $opacity
+// Cross Browser Opacity
+// @param {Number} $opacity
 @mixin opacity($opacity) {
   $opacity-ie: $opacity * 100;
   opacity: $opacity;
@@ -111,8 +136,8 @@
 }
 
 
-/// User Select
-/// @param {String} $type
+// User Select
+// @param {String} $type
 @mixin user-select($type){
   -webkit-user-select: $type;
   -moz-user-select: $type;
@@ -121,14 +146,14 @@
 }
 
 
-/// Hide Element
+// Hide Element
 @mixin hide-element(){
   visibility: hidden;
   opacity: 0;
 }
 
 
-/// Show Element
+// Show Element
 @mixin show-element(){
   visibility: visible;
   opacity: 1;

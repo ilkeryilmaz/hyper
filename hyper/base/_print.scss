@@ -4,24 +4,26 @@
 
 @if $enable-print-styles {
   @media print {
-    * {
-         background: transparent !important;
-         color: #000 !important;
-         box-shadow: none !important;
-         text-shadow: none !important;
-     }
+    *,
+    *::before,
+    *::after{
+      background: transparent !important;
+      color: #000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
 
-     a,
-     a:visited {
-         text-decoration: underline;
-     }
+   a,
+   a:visited {
+       text-decoration: underline;
+   }
 
-     a[href]:after {
-         content: " (" attr(href) ")";
-     }
+   a[href]:after {
+       content: " (" attr(href) ")";
+   }
 
-     abbr[title]:after {
-         content: " (" attr(title) ")";
-     }
+   abbr[title]:after {
+       content: " (" attr(title) ")";
+   }
   }
 }

@@ -372,7 +372,11 @@ textarea {
   /* 2 */ }
 
 @media print {
-  * {
+  *,
+  *::before,
+  *::after,
+  *::first-letter,
+  *::first-line {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
@@ -406,6 +410,33 @@ body {
   line-height: 1.5;
   color: #373a3c;
   background-color: #fff; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0; }
+
+a {
+  color: #0275d8;
+  text-decoration: none; }
+  a:hover {
+    color: #014c8c;
+    text-decoration: underline; }
 
 /** -------------------------------------------
     Layout

@@ -59,17 +59,17 @@ $link-hover-decoration: underline !default;
 //
 // Media code screen sizes.
 
-
 $breakpoints: (
-  mobile-s : 320px,
-  mobile-m : 375px,
-  mobile-l : 425px,
+  mobile-s:  320px,
+  mobile-m:  375px,
+  mobile-l:  425px,
   landscape: 650px,
-  tablet   : 768px,
-  tablet-l : 1020px,
-  laptop   : 1100px,
-  laptop-l : 1440px
+  tablet:    768px,
+  tablet-l:  1020px,
+  laptop:    1100px,
+  laptop-l:  1440px
 ) !default;
+
 
 
 // Typography
@@ -99,7 +99,7 @@ $font-size-h6: 1rem !default;
 
 // Components
 //
-// All Components Variables
+// All Component Settings
 
 // Tables
 // Buttons
