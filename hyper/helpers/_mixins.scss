@@ -34,39 +34,16 @@
 
 /// Media Code
 /// @param {String} $media
-@mixin respond-to($media) {
-  @if $media == laptop-l {
-    @media only screen and (min-width: 1440px){
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
       @content;
     }
-  }@else if $media == laptop {
-    @media only screen and (min-width: 1100px){
-      @content;
-    }
-  }@else if $media == tablet-l {
-    @media only screen and (min-width: 1020px){
-      @content;
-    }
-  }@else if $media == tablet {
-    @media only screen and (min-width: 768px){
-      @content;
-    }
-  }@else if $media == landscape {
-    @media only screen and (min-width: 650px){
-      @content;
-    }
-  }@else if $media == mobile-l {
-    @media only screen and (min-width: 425px){
-      @content;
-    }
-  }@else if $media == mobile-m {
-    @media only screen and (min-width: 375px){
-      @content;
-    }
-  }@else if $media == mobile-s {
-    @media only screen and (min-width: 320px){
-      @content;
-    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
   }
 }
 

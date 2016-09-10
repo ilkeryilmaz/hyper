@@ -3,14 +3,26 @@
 // -----------------------------------------------------------------------------
 
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+html {
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: $font-size-root;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 body {
-  font: $main-font-size $base-font;
-  color: $base-color;
-  line-height: 1.5;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $body-color;
+  background-color: $body-bg;
 }
