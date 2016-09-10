@@ -20,7 +20,7 @@ hyper/
 |   |– _typography.scss
 |   |– _print.scss
 |   |– _animations.scss
-|   |– _base.scss
+|   |– _reboot.scss
 |   …                     
 |
 |– layout/

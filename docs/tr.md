@@ -36,7 +36,7 @@ Siteye ait ana kodların bulunduğu klasördür. Başlangıçta standart olarak 
 * _animations.scss
 * _typography.scss
 * _print.scss
-* _base.scss
+* _reboot.scss
 
 
 ## Layout

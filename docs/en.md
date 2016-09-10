@@ -37,7 +37,7 @@ Is the folder where the main code of the site. Initially set as the default enco
 * _animations.scss
 * _typography.scss
 * _print.scss
-* _base.scss
+* _reboot.scss
 
 ## Layout
 The style files are the main parts of the site is located in this folder.
