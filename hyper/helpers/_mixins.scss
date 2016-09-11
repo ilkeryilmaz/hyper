@@ -11,11 +11,13 @@
 // Box Shadow
 // Transition
 // Transform
+// Background Image
 // Background Size
 // Background Position
 // Background Repeat
 // Opacity
 // User Select
+// Text Hide
 // Hide Element
 // Show Element
 
@@ -104,6 +106,21 @@
 }
 
 
+// Background Image
+/// @param {string} $name - Image name, appended to $DBimage-path
+/// @param {number} $size - background-size property
+/// @param {string} $position - background-position property
+/// @param {string} $repeat - background-repreat property
+@mixin background-image($name, $size: null, $position: center, $repeat: no-repeat) {
+    background-image: url("#{$image-path}#{$name}");
+    @if ($size != null) {
+        background-size: $size;
+    }
+    background-position: $position;
+    background-repeat: $repeat;
+}
+
+
 // Background Size
 // @param {String} $type
 @mixin background-size($type){
@@ -143,6 +160,16 @@
   -moz-user-select: $type;
   -ms-user-select: $type;
   user-select: $type;
+}
+
+
+// Text Hide
+@mixin text-hide() {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
 }
 
 

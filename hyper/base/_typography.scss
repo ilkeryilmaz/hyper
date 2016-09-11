@@ -1,7 +1,7 @@
 // Typography
 
 //
-// Typography
+// Default Typography Settings
 //
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -40,4 +40,9 @@ a {
     color: $link-hover-color;
     text-decoration: $link-hover-decoration;
   }
+}
+
+// Hide text in element.
+.text-hide {
+  @include text-hide();
 }
