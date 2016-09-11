@@ -16,11 +16,14 @@ hyper/
 |
 |– base/
 |   |– __all.scss
-|   |– _normalize.scss       
-|   |– _typography.scss
+|   |– _normalize.scss    
 |   |– _print.scss
-|   |– _animations.scss
+|   |– _fonts.scss   
 |   |– _reboot.scss
+|   |– _typography.scss
+|   |– _sprites.scss
+|   |– _icons.scss
+|   |– _animations.scss
 |   …                     
 |
 |– layout/

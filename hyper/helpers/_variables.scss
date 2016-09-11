@@ -35,7 +35,9 @@ $brand-inverse:             $gray-dark !default;
 // Theme options
 
 $enable-print-styles:       true !default;
-$image-path: "../img/" !default;
+$enable-sprite:             false !default;
+$image-path:                "../img/" !default;
+$font-path:                 "../fonts/" !default;
 
 // Body
 //

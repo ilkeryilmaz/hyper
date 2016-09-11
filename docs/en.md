@@ -33,11 +33,14 @@ Variables , mixins include, functions etc . It is the folder where the propertie
 Is the folder where the main code of the site. Initially set as the default encoding is located here (normalize, typography, etc.)
 
 ### File List
-* _normalize.scss
-* _animations.scss
-* _typography.scss
+* _normalize.scss    
 * _print.scss
+* _fonts.scss   
 * _reboot.scss
+* _typography.scss
+* _sprites.scss
+* _icons.scss
+* _animations.scss
 
 ## Layout
 The style files are the main parts of the site is located in this folder.

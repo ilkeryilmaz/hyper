@@ -32,12 +32,14 @@ Değişkenler, mixinler, fonksiyonlar vb. özelliklerin bulunduğu klasördür. 
 Siteye ait ana kodların bulunduğu klasördür. Başlangıçta standart olarak belirlenen kodlar burada bulunur(normalize,typography vs.)
 
 #### Dosya Listesi
-* _normalize.scss
-* _animations.scss
-* _typography.scss
+* _normalize.scss    
 * _print.scss
+* _fonts.scss   
 * _reboot.scss
-
+* _typography.scss
+* _sprites.scss
+* _icons.scss
+* _animations.scss
 
 ## Layout
 Siteye ait ana parçaların stil dosyaları bu klasörde bulunur.
