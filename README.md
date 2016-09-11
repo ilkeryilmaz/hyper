@@ -8,14 +8,14 @@ Hyper is cute sass framework.
 hyper/
 |
 |– helpers/
-|   |– _all.scss
+|   |– __all.scss
 |   |– _variables.scss   
 |   |– _functions.scss
 |   |– _mixins.scss
 |   …
 |
 |– base/
-|   |– _all.scss
+|   |– __all.scss
 |   |– _normalize.scss       
 |   |– _typography.scss
 |   |– _print.scss
@@ -24,7 +24,7 @@ hyper/
 |   …                     
 |
 |– layout/
-|   |– _all.scss
+|   |– __all.scss
 |   |– _header.scss      
 |   |– _nav.scss     
 |   |– _sidebar.scss
@@ -33,7 +33,7 @@ hyper/
 |   …  
 |                   
 |– components/
-|   |– _all.scss
+|   |– __all.scss
 |   |– _accordion.scss
 |   |– _carousel.scss
 |   |– _alert.scss
@@ -47,14 +47,14 @@ hyper/
 |   …                     
 |
 |– pages/
-|   |– _all.scss
+|   |– __all.scss
 |   |– _home.scss     
 |   |– _contact.scss
 |   |– sample-folder/_all.scss
 |   …                   
 |
 |– vendors/
-|   |– _all.scss
+|   |– __all.scss
 |   |– _bx-slider.scss
 |   |– _jquery-ui.scss   
 |   …                     

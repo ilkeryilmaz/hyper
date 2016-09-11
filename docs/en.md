@@ -70,7 +70,7 @@ Special style files to pages located in this folder. If desired, create a page f
 ### File List
 * _home.scss
 * _contact.scss
-* folder / _all -> Example folder structure
+* folder / __all -> Example folder structure
 
 ## Vendors  
 Framework and outside the library added style files are located here.

@@ -75,7 +75,7 @@ Sayfalara özel stil dosyaları bu klasörde bulunur. Eğer bir sayfa için bird
 #### Dosya Listesi
 * _home.scss
 * _contact.scss
-* folder/_all -> Örnek klasör yapısı
+* folder/__all -> Örnek klasör yapısı
 
 
 ## Vendors
