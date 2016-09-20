@@ -9,7 +9,7 @@
 // Body
 // Links
 // Grid breakpoints
-// Fonts
+// Typography
 // Components
 
 //
@@ -62,16 +62,13 @@ $link-hover-decoration: underline !default;
 // Media code screen sizes.
 
 $breakpoints: (
-  mobile-s:  320px,
-  mobile-m:  375px,
+  mobile-s:  240px,
   mobile-l:  425px,
-  landscape: 650px,
-  tablet:    768px,
-  tablet-l:  1020px,
-  laptop:    1100px,
-  laptop-l:  1440px
+  tablet-s:  480px,
+  tablet-l:  768px,
+  screen-s:  1024px,
+  screen-l:  1280px
 ) !default;
-
 
 
 // Typography
@@ -103,8 +100,15 @@ $font-size-h6: 1rem !default;
 //
 // All Component Settings
 
-// Tables
-// Buttons
-// Forms
-// Navbar
+// Accordion
+// Alert
+// Buttton
+// Carousel
+// Form
+// Label
+// Modal
 // Pagination
+// Slider
+// Tab
+// Table
+// Video

@@ -1,6 +1,16 @@
 // -----------------------------------------------------------------------------
-// All Mixin
+// Mixins
 // -----------------------------------------------------------------------------
+
+// Table of Contents
+//
+// 1. Default
+// 2. Components
+
+
+//
+// 1. Default
+//
 
 // Table of Contents
 //
@@ -21,8 +31,7 @@
 // Hide Element
 // Show Element
 
-
-// clear inner floats
+// Clear inner floats
 @mixin clearfix {
   &::after {
     content: '';
@@ -124,9 +133,7 @@
 // Background Size
 // @param {String} $type
 @mixin background-size($type){
-  -webkit-background-size: $type;
-       -o-background-size: $type;
-          background-size: $type;
+  background-size: $type;
 }
 
 
@@ -185,3 +192,14 @@
   visibility: visible;
   opacity: 1;
 }
+
+
+//
+// 2. Components
+//
+
+// Table of Contents
+//
+// Alert
+// Forms
+// Etc...
