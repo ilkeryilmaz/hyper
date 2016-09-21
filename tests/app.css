@@ -406,12 +406,12 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #373a3c;
+  color: #323a45;
   background-color: #fff; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: .5rem; }
+  margin-bottom: 0.5rem; }
 
 p {
   margin-top: 0;
@@ -430,10 +430,10 @@ ul ol {
   margin-bottom: 0; }
 
 a {
-  color: #0275d8;
+  color: #0071bc;
   text-decoration: none; }
   a:hover {
-    color: #014c8c;
+    color: #004370;
     text-decoration: underline; }
 
 .text-hide {

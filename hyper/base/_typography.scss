@@ -1,17 +1,19 @@
+// -----------------------------------------------------------------------------
 // Typography
+// -----------------------------------------------------------------------------
 
 //
 // Default Typography Settings
 //
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: $title-bottom-space;
 }
 
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: $paragraph-bottom-space;
 }
 
 
@@ -19,7 +21,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: $list-bottom-space;
 }
 
 

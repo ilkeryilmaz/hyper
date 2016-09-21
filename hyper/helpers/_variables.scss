@@ -16,18 +16,45 @@
 // Colors
 //
 
-$gray-dark:                 #373a3c !default;
-$gray:                      #55595c !default;
-$gray-light:                #818a91 !default;
-$gray-lighter:              #eceeef !default;
-$gray-lightest:             #f7f7f9 !default;
+// Primary Colors
+$primary:                #0071bc !default;
+$primary-light:          #4ea7e2 !default;
+$primary-lightest:       #197cbd !default;
+$primary-darkest:        #112e51 !default;
+$primary-dark:           #205493 !default;
+$base:                   #212121 !default;
 
-$brand-primary:             #0275d8 !default;
-$brand-success:             #5cb85c !default;
-$brand-info:                #5bc0de !default;
-$brand-warning:             #f0ad4e !default;
-$brand-danger:              #d9534f !default;
-$brand-inverse:             $gray-dark !default;
+
+// Secondary Colors
+$secondary:              #e31c3d !default;
+$secondary-dark:         #cd2026 !default;
+$secondary-darkest:      #981b1e !default;
+$secondary-light:        #e59393 !default;
+$secondary-lightest:     #f9dede !default;
+
+$primary-alt:            #02bfe7 !default;
+$primary-alt-dark:       #5cb85c !default;
+$primary-alt-darkest:    #046b99 !default;
+$primary-alt-light:      #9bdaf1 !default;
+$primary-alt-lightest:   #e1f3f8 !default;
+
+
+// Tertiary Colors
+$gray-dark:              #323a45 !default;
+$gray:                   #5b616b !default;
+$gray-light:             #aeb0b5 !default;
+$gray-lighter:           #d6d7d9 !default;
+$gray-lightest:          #f1f1f1 !default;
+
+$blue:                   #55595c !default;
+$blue-light:             #4773aa !default;
+$blue-lighter:           #8ba6ca !default;
+$blue-lightest:          #dce4ef !default;
+
+
+// Special Colors
+$focus:                  #3e94cf !default;
+$visited:                #4c2c92 !default;
 
 
 // Options
@@ -51,7 +78,7 @@ $body-color: $gray-dark !default;
 //
 // Style anchor elements.
 
-$link-color:            $brand-primary !default;
+$link-color:            $primary !default;
 $link-decoration:       none !default;
 $link-hover-color:      darken($link-color, 15%) !default;
 $link-hover-decoration: underline !default;
@@ -94,6 +121,10 @@ $font-size-h3: 1.75rem !default;
 $font-size-h4: 1.5rem !default;
 $font-size-h5: 1.25rem !default;
 $font-size-h6: 1rem !default;
+
+$title-bottom-space:     .5rem !default;
+$paragraph-bottom-space: 1rem !default;
+$list-bottom-space:      1rem !default;
 
 
 // Components
