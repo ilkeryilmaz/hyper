@@ -4,3 +4,6 @@
 
 // Simple font-face use
 // @include fontFace("font-name", #{$font-path});
+
+
+@include fontFace("fontName", #{$font-path}/fontName);
