@@ -134,6 +134,15 @@ $paragraph-bottom-space: 1rem !default;
 $list-bottom-space:      1rem !default;
 
 
+// Z-Index
+//
+// all z-index 
+$z-index: (
+  header:  100,
+  mobile-menu:  99,
+) !default;
+
+
 // Components
 //
 // All Component Settings
