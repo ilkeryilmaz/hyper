@@ -130,6 +130,22 @@
 }
 
 
+/// Transition Delay
+/// @param {number} $nth - nth start number
+/// @param {number} $items - total items
+/// @param {number} $initial - default transition delay second
+/// @param {number} $step - transition delay step time
+/// @include transition-delay($items:7, $nth:0, $initial:1.4, $step:0.5);
+@mixin transition-delay($nth:1, $items:2, $initial:0, $step:.1){
+	@for $i from $nth through $items{
+		&:nth-of-type(#{$i}){
+			transition-delay:#{$initial}s;
+		}
+		$initial: $initial + $step;
+	}
+}
+
+
 // Background Size
 // @param {String} $type
 @mixin background-size($type){
