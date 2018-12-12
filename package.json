@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass ./hyper/hyper.scss ./tests/app.css"
   },
   "repository": "git+https://github.com/ilkeryilmaz/Hyper.git",
   "author": "ilker Yılmaz",

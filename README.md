@@ -1,7 +1,9 @@
 Hyper
 =============
-Hyper sass to use a CSS framework in frastructure . Its created to new style  move by the common organization of the team work and personal projects can be extended according to the project .
 
+What?
+---
+Hyper scss to use a CSS framework in frastructure . Its created to new style  move by the common organization of the team work and personal projects can be extended according to the project.
 
 How to use?
 ---
@@ -12,34 +14,35 @@ How to use?
 
 Folder Structure
 ---
-## 1.Settings
+### 1.Settings
 Variables , mixins include, functions etc . It is the folder where the properties. The mixins that you can use in your project , sample code for functions and variables are available.
 
-## 2.Tools
+### 2.Tools
 Is the folder where the main code of the site. Initially set as the default encoding is located here (normalize, typography, etc.)
 
-## 3.Base
+### 3.Base
 The style files are the main parts of the site is located in this folder.
 
-## 4.Elements
+### 4.Elements
 Complementary style of small files are located in this folder.
 
-## 5.Objects
+### 5.Objects
 Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
 
-## 6.Utilities
+### 6.Utilities
 Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
 
-## 7.Components
+### 7.Components
 Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
 
-## 8.Vendors  
+### 8.Vendors  
 Framework and outside the library added style files are located here.
 
-### hyper.scss
+#### hyper.scss
 Home sass file. You can `@import` way of typing necessary to your project.
 
 > Can add new files (.scss) to this folders by considering the following description of the structure of your project.
+
 
 Scaffolding
 ---
@@ -118,7 +121,7 @@ hyper/
 |   |– _library-file.scss  
 |   …                     
 |
-– hyper.scss  # Hyper Main Sass file
+– hyper.scss  # Hyper Main Scss file
 ````
 
 ## License
