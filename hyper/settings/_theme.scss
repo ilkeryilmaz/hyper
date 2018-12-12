@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// Theme Color
+// -----------------------------------------------------------------------------
+
+// Base Color
+$base:                   #212121 !default;
+
+// Primary Colors
+$primary:                #d62631 !default;
+$primary-dark:           #205493 !default;
+$primary-darkest:        #112e51 !default;
+$primary-light:          #4ea7e2 !default;
+$primary-lightest:       #197cbd !default;
+
+// Secondary Colors
+$secondary:              #e31c3d !default;
+$secondary-dark:         #cd2026 !default;
+$secondary-darkest:      #981b1e !default;
+$secondary-light:        #e59393 !default;
+$secondary-lightest:     #f9dede !default;
+
+$primary-alt:            #02bfe7 !default;
+$primary-alt-dark:       #5cb85c !default;
+$primary-alt-darkest:    #046b99 !default;
+$primary-alt-light:      #9bdaf1 !default;
+$primary-alt-lightest:   #e1f3f8 !default;
+
+// Tertiary Colors
+$gray:                   #868d9b !default;
+$base-gray:              #e4e6ec !default;
+
+// Special Colors
+$focus:                  #3e94cf !default;
+$visited:                #4c2c92 !default;
+
+$body-bg:    #fff !default;
+$body-color: $gray !default;
+
+$link-color:            $body-color !default;
+$link-decoration:       none !default;
+$link-hover-color:      $primary !default;
+$link-hover-decoration: underline !default;
+
+$primary-border-color: #E4E6EC !default;

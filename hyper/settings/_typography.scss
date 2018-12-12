@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------------------
+// Typography Settings
+// -----------------------------------------------------------------------------
+
+$font-family-sans-serif: ('Rubik', 'Arial', sans-serif) !default;
+$font-family-base:       $font-family-sans-serif !default;
+$line-height-base: 1.5 !default;
+
+$font-size-root: 16px !default;
+$font-size-base: 1rem !default;
+
+$font-size-lg:                ($font-size-base * 1.25) !default;  // 18px
+$font-size-sm:                ($font-size-base * 0.875) !default; // 14px
+$font-size-xs:                ($font-size-base * 0.813) !default;  // 13px
+$font-size-xxs:                ($font-size-base * 0.75) !default;  // 12px
+
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$font-weight: (
+  light: 300,
+  normal: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700,
+  extrabold: 900,
+) !default;
+
+$title-bottom-space:     0.5rem !default;
+$paragraph-bottom-space: 1rem !default;
+$list-bottom-space:      1rem !default;

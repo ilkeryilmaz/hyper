@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// Transition Delay
+// -----------------------------------------------------------------------------
+
+@mixin transition-delay($nth:1, $items:2, $initial:0, $step:0.1) {
+  @for $i from $nth through $items {
+    &:nth-of-type(#{$i}) {
+      transition-delay: #{$initial}s;
+    }
+
+    $initial: $initial + $step;
+  }
+}

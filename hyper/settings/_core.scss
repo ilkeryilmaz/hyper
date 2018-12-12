@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// Core Variables
+// -----------------------------------------------------------------------------
+
+// Variables
+//
+// Project settings variables
+$enable-print-styles:    true !default;
+
+
+// Spacing
+//
+// Theme Layout spacing
+$space-small:       10px !default;
+$space-medium:      15px !default;
+$space-large:       20px !default;
+
+
+// Path
+//
+// Folder path settings
+$static-path:            "../static/" !default;
+$img-path:               "../static/img/" !default;
+$svg-path:               "../static/svg/" !default;
+$uploads-path:           "../uploads/" !default;
+$font-path:              "../static/fonts/" !default;
+
+// Z-index
+//
+// Project z-index variables
+$z-index: (
+  header-menu: 1,
+  mobile-menu: 2,
+  header-nav-fixed:  100,
+) !default;
+
+// Breakpoints
+//
+// Media code screen sizes.
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;

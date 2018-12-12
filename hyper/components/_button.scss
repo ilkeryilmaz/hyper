@@ -1,3 +1,36 @@
 // -----------------------------------------------------------------------------
 // Button
 // -----------------------------------------------------------------------------
+
+// Variables
+$btn-ghost-border-width: 2px !default;
+
+.c-button {
+  display: inline-block;
+  padding: 10px 5px;
+  margin: 0;
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 5px;
+
+  //
+  // Type
+  //
+  &--ghost {
+    border-width: $btn-ghost-border-width;
+  }
+
+  //
+  // Style
+  //
+  &--primary {
+    background: $primary;
+  }
+
+  &--secondary {
+    background: $primary-alt;
+  }
+}

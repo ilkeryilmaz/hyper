@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// Visibility
+// -----------------------------------------------------------------------------
+
+.u-hidden {
+  display: none !important;
+}
+
+.u-visible {
+  display: block !important;
+}
+
+.u-is-desktop {
+  display: none;
+
+  @include respond-to-up('lg') {
+    display: block;
+  }
+}
