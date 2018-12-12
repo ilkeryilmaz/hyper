@@ -12,16 +12,6 @@ How to use?
 
 Folder Structure
 ---
-1. [Helpers](#helpers)
-2. [Base](#base)
-3. [Layout](#layout)
-4. [Components](#components)
-5. [Pages](#pages)
-6. [Vendors](#vendors)
-
-> Can add new files (.scss) to this folders by considering the following description of the structure of your project.
-
-
 ## 1.Settings
 Variables , mixins include, functions etc . It is the folder where the properties. The mixins that you can use in your project , sample code for functions and variables are available.
 
@@ -38,7 +28,10 @@ Complementary style of small files are located in this folder.
 Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
 
 ## 6.Utilities
+Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
+
 ## 7.Components
+Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
 
 ## 8.Vendors  
 Framework and outside the library added style files are located here.
@@ -46,9 +39,11 @@ Framework and outside the library added style files are located here.
 ### hyper.scss
 Home sass file. You can `@import` way of typing necessary to your project.
 
+> Can add new files (.scss) to this folders by considering the following description of the structure of your project.
 
 Scaffolding
 ---
+````
 hyper/
 |
 |– settings/
