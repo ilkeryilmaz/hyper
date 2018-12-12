@@ -2,8 +2,8 @@ Hyper
 =============
 [![Build Status](https://travis-ci.org/ilkeryilmaz/Hyper.svg?branch=feature%2Fnew-version)](https://travis-ci.org/ilkeryilmaz/Hyper)
 
-What?
----
+![logo](docs/assets/hyper.svg?raw=true)
+
 Hyper scss to use a CSS framework in frastructure . Its created to new style  move by the common organization of the team work and personal projects can be extended according to the project.
 
 How to use?
