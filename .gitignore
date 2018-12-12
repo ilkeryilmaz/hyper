@@ -1,2 +1,11 @@
-.sass-cache
+# misc
+.tmp
 .DS_Store
+.sass-cache
+.history
+
+# dependencies
+node_modules
+
+# production
+dist
