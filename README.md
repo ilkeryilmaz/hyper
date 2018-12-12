@@ -1,65 +1,69 @@
 Hyper
 =============
-Hyper is cute sass framework.
+Hyper scss file structure system.
 
 
 ## Scaffolding
 ````
 hyper/
 |
-|– helpers/
+|– settings/
 |   |– __all.scss
-|   |– _variables.scss   
-|   |– _functions.scss
-|   |– _mixins.scss
+|   |– _core.scss   
+|   |– _theme.scss
+|   |– _typography.scss
 |   …
+|
+|– tools/
+|   |– __all.scss
+|   |– _clearfix.scss    
+|   |– _breakpoints.scss
+|   |– _fonts-face.scss   
+|   |– _rem.scss
+|   |– _list.scss
+|   |– _grid.scss
+|   |– _visibility.scss
+|   |– _transition-delay
+|   |– _background-retina
+|   …                     
 |
 |– base/
 |   |– __all.scss
-|   |– _normalize.scss    
-|   |– _print.scss
-|   |– _fonts.scss   
-|   |– _reboot.scss
+|   |– _normalize.scss      
+|   |– _fonts.scss     
 |   |– _typography.scss
-|   |– _sprites.scss
-|   |– _icons.scss
-|   |– _animations.scss
-|   …                     
+|   |– _icons.scss   
+|   |– _reboot.scss            
+|   …  
 |
-|– layout/
+|– elements/
 |   |– __all.scss
-|   |– _header.scss      
-|   |– _nav.scss     
-|   |– _sidebar.scss
-|   |– _breadcrumbs.scss   
-|   |– _footer.scss            
+|   |– _links.scss      
+|   |– _hr.scss             
 |   …  
 |                   
-|– components/
+|– objects/
 |   |– __all.scss
-|   |– _accordion.scss
-|   |– _carousel.scss
-|   |– _alert.scss
-|   |– _button.scss
-|   |– _label.scss
-|   |– _slider.scss
-|   |– _table.scss
-|   |– _modal.scss
-|   |– _tab.scss
-|   |– _video.scss  
+|   |– _header.scss
+|   |– _main-nav.scss
+|   |– _breadcrumbs.scss
+|   |– _list.scss
 |   …                     
 |
-|– pages/
+|– components/
 |   |– __all.scss
-|   |– _home.scss     
-|   |– _contact.scss
-|   |– sample-folder/_all.scss
+|   |– _button.scss     
+|   |– _accordion.scss
+|   |– _carousel.scss
+|   |– _modal.scss
+|   |– _slider.scss
+|   |– _table.scss
+|   |– _box.scss
 |   …                   
 |
 |– vendors/
 |   |– __all.scss
-|   |– _bx-slider.scss
-|   |– _jquery-ui.scss   
+|   |– _library-file.scss  
 |   …                     
 |
 – hyper.scss  # Hyper Main Sass file
