@@ -3,9 +3,6 @@
     Settings
     ------------------------------------------- **/
 /** -------------------------------------------
-    Tools
-    ------------------------------------------- **/
-/** -------------------------------------------
     Base
     ------------------------------------------- **/
 /* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -353,6 +350,9 @@ body {
   background-color: #fff; }
 
 /** -------------------------------------------
+    Tools
+    ------------------------------------------- **/
+/** -------------------------------------------
     Elements
     ------------------------------------------- **/
 a {
@@ -371,6 +371,22 @@ hr {
     ------------------------------------------- **/
 .o-header {
   background: #fff; }
+
+.o-container {
+  width: 100%;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 992px) {
+    .o-container {
+      max-width: 1200px; }
+      .o-container--large {
+        max-width: 1300px; } }
+  .o-container:after {
+    display: block !important;
+    clear: both !important;
+    content: "" !important; }
 
 /** -------------------------------------------
     Components

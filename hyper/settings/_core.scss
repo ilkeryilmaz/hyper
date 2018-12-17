@@ -6,6 +6,7 @@
 //
 // Project settings variables
 $enable-print-styles:    true !default;
+$base-transition: all 0.3s ease !default;
 
 
 // Spacing
@@ -19,28 +20,32 @@ $space-large:       20px !default;
 // Path
 //
 // Folder path settings
-$static-path:            "../static/" !default;
-$img-path:               "../static/img/" !default;
-$svg-path:               "../static/svg/" !default;
-$uploads-path:           "../uploads/" !default;
-$font-path:              "../static/fonts/" !default;
+$img-path:               "../img/" !default;
+$uploads-path:           "../assets/uploads/" !default;
+$font-path:              "../fonts/" !default;
 
 // Z-index
 //
 // Project z-index variables
 $z-index: (
-  header-menu: 1,
-  mobile-menu: 2,
-  header-nav-fixed:  100,
+  mega-nav-sub: 100,
+  full-slider-controls: 10,
 ) !default;
 
-// Breakpoints
+// Grid
 //
-// Media code screen sizes.
+// Media code screen size and grid
+$grid-gutter-width:  30px !default;
+$grid-container-desktop: 1170px !default;
+$grid-container-desktop-large: 1270px !default;
+$grid-container: $grid-container-desktop + $grid-gutter-width !default;
+$grid-container-large: $grid-container-desktop-large + $grid-gutter-width !default;
+
 $breakpoints: (
-  xs: 0,
+  xs: 375px,
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1200px
+  xl: 1200px,
+  xxl: 1400px,
 ) !default;

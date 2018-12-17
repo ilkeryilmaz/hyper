@@ -1,0 +1,4 @@
+.o-container {
+  @include make-container;
+  @include clearfix;
+}
