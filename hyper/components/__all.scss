@@ -2,62 +2,37 @@
     Components
     ------------------------------------------- **/
 
-
 //
 // Button
 //
-@import 'button';
-
-
-//
-// Table
-//
-@import 'table';
-
-
-//
-// Navigation
-//
-@import 'form';
-
-
-//
-// Modal
-//
-@import 'modal';
-
-
-//
-// Slider
-//
-@import 'slider';
-
-
-//
-// Carousel
-//
-@import 'carousel';
-
+@import './button';
 
 //
 // Accordion
 //
-@import 'accordion';
+@import './accordion';
 
+//
+// Carousel
+//
+@import './carousel';
 
 //
 // Modal
 //
-@import 'video';
-
-
-//
-// Label
-//
-@import 'label';
-
+@import './modal';
 
 //
-// Alert
+// Slider
 //
-@import 'alert';
+@import './slider';
+
+//
+// Table
+//
+@import './table';
+
+//
+// Box
+//
+@import './box';

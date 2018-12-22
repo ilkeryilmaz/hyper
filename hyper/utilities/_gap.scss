@@ -1,0 +1,35 @@
+$desktop-gap-space: rem(75px) !default;
+$desktop-gap-space-mobile: rem(53px) !default;
+$desktop-gap-space-small: rem(35px) !default;
+
+.u-gap-top {
+  margin-top: $desktop-gap-space-mobile;
+
+  @include respond-to-up('lg') {
+    margin-top: $desktop-gap-space;
+  }
+}
+
+.u-gap-top-medium {
+  margin-top: rem(46px);
+
+  @include respond-to-up('lg') {
+    margin-top: rem(54px);
+  }
+}
+
+.u-gap-bottom {
+  margin-bottom: $desktop-gap-space;
+}
+
+.u-gap-left {
+  margin-left: $desktop-gap-space;
+}
+
+.u-gap-right {
+  margin-right: $desktop-gap-space;
+}
+
+.u-gap-top-small {
+  margin-top: $desktop-gap-space-small;
+}

@@ -1,31 +1,40 @@
-/* Hyper v1.0.0 | MIT License | github.com/ilkeryilmaz/Hyper */
+/* Hyper v2.0.0 | MIT License | github.com/ilkeryilmaz/Hyper */
 
-
-// 1. Helpers
-// For all Sass tools (variables, mixins, functions etc.)
-@import "helpers/_all";
+// 1. Settings
+// Global variables, theme confing and typography settings, etc.
+@import "./settings/_all";
 
 
 // 2. Base
-// Theme settings, variables, mixins, functions etc.
-@import "base/_all";
+// Low-specificity, far-reaching rulesets (e.g. normalize, typography, fonts).
+@import "./base/_all";
 
 
-// 3. Layout
-// For main parts (header,footer, sidebar, nav, breadcrumbs etc.).
-@import "layout/_all";
+// 3. Tools
+//The style files are the main parts of the site is located in this folder.
+@import "./tools/_all";
 
 
-// 4. Layout
-// For small components
-@import "components/_all";
+// 4. Elements
+// Unclassed HTML elements. (e.g. `a { }`, `hr { }`)
+@import "./elements/_all";
 
 
-// 5. Pages
-// For all pages
-@import "pages/_all";
+// 5. Objects
+// Objects, abstractions, and design patterns (e.g. `.o-layout {}`).
+@import "./objects/_all";
 
 
-// 6. Vendors
-// For all framework and external libraries
-@import "vendors/_all";
+// 6. Componenets
+// Discrete, complete chunks of UI (e.g. `.c-carousel {}`).
+@import "./components/_all";
+
+
+// 7. Utilities
+// High-specificity, very explicit selectors. Overrides and helper classes (e.g. `.u-hidden {}`).
+@import "./utilities/_all";
+
+
+// 8. Vendors
+// Outside library files. (e.g magnific-popup, jquery-ui, )
+@import "./vendors/_all";

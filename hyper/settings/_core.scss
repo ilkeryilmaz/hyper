@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// Core Variables
+// -----------------------------------------------------------------------------
+
+// Variables
+//
+// Project settings variables
+$enable-print-styles:    true !default;
+$base-transition: all 0.3s ease !default;
+
+
+// Spacing
+//
+// Theme Layout spacing
+$space-small:       10px !default;
+$space-medium:      15px !default;
+$space-large:       20px !default;
+
+
+// Path
+//
+// Folder path settings
+$img-path:               "../img/" !default;
+$uploads-path:           "../assets/uploads/" !default;
+$font-path:              "../fonts/" !default;
+
+// Z-index
+//
+// Project z-index variables
+$z-index: (
+  mega-nav-sub: 100,
+  full-slider-controls: 10,
+) !default;
+
+// Grid
+//
+// Media code screen size and grid
+$grid-gutter-width:  30px !default;
+$grid-container-desktop: 1170px !default;
+$grid-container-desktop-large: 1270px !default;
+$grid-container: $grid-container-desktop + $grid-gutter-width !default;
+$grid-container-large: $grid-container-desktop-large + $grid-gutter-width !default;
+
+$breakpoints: (
+  xs: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;

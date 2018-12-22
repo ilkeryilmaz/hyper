@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// Heading
+// -----------------------------------------------------------------------------
+
+/**
+ * Redefine all of our basic heading styles against utility classes so as to
+ *
+ *  <h1 class="u-h1"></h1>
+ *
+*/
+
+.u-h1 {
+  font-size: $h1-font-size;
+}
+
+.u-h2 {
+  font-size: $h2-font-size;
+}
+
+.u-h3 {
+  font-size: $h3-font-size;
+}
+
+.u-h4 {
+  font-size: $h4-font-size;
+}
+
+.u-h5 {
+  font-size: $h5-font-size;
+}
+
+.u-h6 {
+  font-size: $h6-font-size;
+}
+

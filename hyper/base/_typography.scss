@@ -5,17 +5,20 @@
 //
 // Default Typography Settings
 //
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: $title-bottom-space;
 }
-
 
 p {
   margin-top: 0;
   margin-bottom: $paragraph-bottom-space;
 }
-
 
 ol,
 ul,
@@ -24,27 +27,9 @@ dl {
   margin-bottom: $list-bottom-space;
 }
 
-
 ol ol,
 ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
-}
-
-
-// Link
-a {
-  color: $link-color;
-  text-decoration: $link-decoration;
-
-  @include hover{
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
-}
-
-// Hide text in element.
-.text-hide {
-  @include text-hide();
 }

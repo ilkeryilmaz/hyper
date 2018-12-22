@@ -1,0 +1,28 @@
+{
+  "name": "hyper",
+  "version": "2.0.0",
+  "description": "Hyper scss file structure system",
+  "main": "hyper/hyper.scss",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "sass ./hyper/hyper.scss ./tests/app.css"
+  },
+  "repository": "git+https://github.com/ilkeryilmaz/Hyper.git",
+  "author": "ilker Yılmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilkeryilmaz/Hyper/issues"
+  },
+  "homepage": "https://github.com/ilkeryilmaz/Hyper#readme",
+  "devDependencies": {
+    "stylelint": "^9.2.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "^3.3.1"
+  },
+  "dependencies": {}
+}
