@@ -2,7 +2,9 @@ Hyper
 =============
 [![Build Status](https://travis-ci.org/ilkeryilmaz/Hyper.svg?branch=feature%2Fnew-version)](https://travis-ci.org/ilkeryilmaz/Hyper)
 
-<p style="text-align: center;">![logo](docs/assets/hyper.svg)</p>
+<p align="center">
+  <img src="docs/assets/hyper.svg" alt="logo" />
+</p>
 
 Hyper is scss based scalable and modular framework. There are no ready boxes, teaches how to fish.
 
