@@ -2,47 +2,42 @@ Hyper
 =============
 [![Build Status](https://travis-ci.org/ilkeryilmaz/Hyper.svg?branch=feature%2Fnew-version)](https://travis-ci.org/ilkeryilmaz/Hyper)
 
-![logo](docs/assets/hyper.svg?raw=true)
+![logo](docs/assets/hyper.svg)
 
-Hyper scss to use a CSS framework in frastructure . Its created to new style  move by the common organization of the team work and personal projects can be extended according to the project.
-
-How to use?
----
-1. Do Clone / Download then download files by your computer.
-2. Carrying the hyper folder to your project , please `@import` main .scss the `hyper.scss` file in your application file.
-3. You can start by running your compiler. Happy coding. :sunglasses:
+Hyper is scss based scalable and modular framework. There are no ready boxes, teaches how to fish.
 
 
 Folder Structure
 ---
 ### 1.Settings
-Variables , mixins include, functions etc . It is the folder where the properties. The mixins that you can use in your project , sample code for functions and variables are available.
+Global variables, theme confing and typography settings, etc.
 
-### 2.Tools
-Is the folder where the main code of the site. Initially set as the default encoding is located here (normalize, typography, etc.)
+### 2.Base
+Low-specificity, far-reaching rulesets (e.g. normalize, typography, fonts).
 
-### 3.Base
+### 3.Tools
 The style files are the main parts of the site is located in this folder.
 
 ### 4.Elements
-Complementary style of small files are located in this folder.
+Unclassed HTML elements. (eg. `a { }`, `hr { }`,)
 
 ### 5.Objects
-Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
+Objects, abstractions, and design patterns (e.g. `.o-layout {}`).
 
-### 6.Utilities
-Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
 
-### 7.Components
-Special style files to pages located in this folder. If desired, create a page for a more sass file folder structure can be created.
+### 6.Components
+Discrete, complete chunks of UI (e.g. `.c-carousel {}`).
+
+### 7.Utilities
+High-specificity, very explicit selectors. Overrides and helper classes (e.g. `.u-hidden {}`).
 
 ### 8.Vendors  
-Framework and outside the library added style files are located here.
+Outside library files. (e.g magnific-popup, jquery-ui, )
 
 #### hyper.scss
 Home sass file. You can `@import` way of typing necessary to your project.
 
-> Can add new files (.scss) to this folders by considering the following description of the structure of your project.
+> Depending on the structure of your project, you can add new scss files to expand the structure. You're free.
 
 
 Scaffolding

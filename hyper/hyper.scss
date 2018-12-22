@@ -1,40 +1,40 @@
 /* Hyper v2.0.0 | MIT License | github.com/ilkeryilmaz/Hyper */
 
 // 1. Settings
-// For all Sass tools (variables, mixins, functions etc.)
+// Global variables, theme confing and typography settings, etc.
 @import "./settings/_all";
 
 
 // 2. Base
-// For main parts (header,footer, sidebar, nav, breadcrumbs etc.).
+// Low-specificity, far-reaching rulesets (e.g. normalize, typography, fonts).
 @import "./base/_all";
 
 
 // 3. Tools
-// Theme settings, variables, mixins, functions etc.
+//The style files are the main parts of the site is located in this folder.
 @import "./tools/_all";
 
 
 // 4. Elements
-// For html element styles (a, table, ul etc.)
+// Unclassed HTML elements. (e.g. `a { }`, `hr { }`)
 @import "./elements/_all";
 
 
 // 5. Objects
-// For main parts (header,footer, sidebar, nav, breadcrumbs etc.).
+// Objects, abstractions, and design patterns (e.g. `.o-layout {}`).
 @import "./objects/_all";
 
 
 // 6. Componenets
-// For main parts (header,footer, sidebar, nav, breadcrumbs etc.).
+// Discrete, complete chunks of UI (e.g. `.c-carousel {}`).
 @import "./components/_all";
 
 
 // 7. Utilities
-// For utilities classes for html
+// High-specificity, very explicit selectors. Overrides and helper classes (e.g. `.u-hidden {}`).
 @import "./utilities/_all";
 
 
 // 8. Vendors
-// For all framework and external libraries
+// Outside library files. (e.g magnific-popup, jquery-ui, )
 @import "./vendors/_all";
