@@ -10,6 +10,15 @@
   display: block !important;
 }
 
+.u-is-mobile {
+  display: block;
+
+  @include respond-to-up('lg') {
+    display: none;
+  }
+}
+
+
 .u-is-desktop {
   display: none;
 
