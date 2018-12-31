@@ -6,7 +6,7 @@ Hyper
   <img src="docs/assets/hyper.svg" alt="logo" />
 </p>
 
-Hyper is scss based scalable and modular framework. There are no ready boxes, teaches how to fish.
+Hyper: A component-first CSS design system. 
 
 
 Folder Structure
