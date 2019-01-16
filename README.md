@@ -9,35 +9,19 @@ Hyper
 Hyper: A component-first CSS design system. 
 
 
-Folder Structure
+Folder Detail
 ---
-### 1.Settings
-Global variables, theme confing and typography settings, etc.
 
-### 2.Base
-Low-specificity, far-reaching rulesets (e.g. normalize, typography, fonts).
+* `1. settings`: Global variables, theme confing and typography settings, etc.
+* `2. base`: Low-specificity, far-reaching rulesets (e.g. normalize, typography, fonts).
+* `3. tools`: The style files are the main parts of the site is located in this folder.
+* `4. elements`: Unclassed HTML elements. (eg. `a { }`, `hr { }`,)
+* `5. objects`: Objects, abstractions, and design patterns (e.g. `.o-layout {}`).
+* `6. components`: Discrete, complete chunks of UI (e.g. `.c-carousel {}`).
+* `7. utilities`: High-specificity, very explicit selectors. Overrides and helper classes (e.g. `.u-hidden {}`).
+* `8. vendors`: Outside library files. (e.g magnific-popup, jquery-ui, )
 
-### 3.Tools
-The style files are the main parts of the site is located in this folder.
-
-### 4.Elements
-Unclassed HTML elements. (eg. `a { }`, `hr { }`,)
-
-### 5.Objects
-Objects, abstractions, and design patterns (e.g. `.o-layout {}`).
-
-
-### 6.Components
-Discrete, complete chunks of UI (e.g. `.c-carousel {}`).
-
-### 7.Utilities
-High-specificity, very explicit selectors. Overrides and helper classes (e.g. `.u-hidden {}`).
-
-### 8.Vendors  
-Outside library files. (e.g magnific-popup, jquery-ui, )
-
-#### hyper.scss
-Home sass file. You can `@import` way of typing necessary to your project.
+> * `hyper.scss`: Home sass file. You can `@import` way of typing necessary to your project.
 
 > Depending on the structure of your project, you can add new scss files to expand the structure. You're free.
 
@@ -119,7 +103,7 @@ hyper/
 |   |– _library-file.scss  
 |   …                     
 |
-– hyper.scss  # Hyper Main Scss file
+– hyper.scss  # Hyper main scss file
 ````
 
 ## License
