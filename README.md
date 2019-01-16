@@ -21,7 +21,7 @@ Folder Detail
 * `7. utilities`: High-specificity, very explicit selectors. Overrides and helper classes (e.g. `.u-hidden {}`).
 * `8. vendors`: Outside library files. (e.g magnific-popup, jquery-ui, )
 
-> * `hyper.scss`: Home sass file. You can `@import` way of typing necessary to your project.
+> `hyper.scss`: Home sass file. You can `@import` way of typing necessary to your project.
 
 > Depending on the structure of your project, you can add new scss files to expand the structure. You're free.
 
