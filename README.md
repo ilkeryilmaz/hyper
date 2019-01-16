@@ -1,6 +1,6 @@
 Hyper
 =============
-[![Build Status](https://travis-ci.org/ilkeryilmaz/Hyper.svg?branch=feature%2Fnew-version)](https://travis-ci.org/ilkeryilmaz/Hyper)
+[![Build Status](https://travis-ci.org/ilkeryilmaz/hyper.svg)](https://travis-ci.org/ilkeryilmaz/hyper)
 
 <p align="center">
   <img src="docs/assets/hyper.svg" alt="logo" />
